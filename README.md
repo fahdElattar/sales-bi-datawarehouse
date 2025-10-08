@@ -45,7 +45,7 @@ The BI system follows a layered architecture:
 - **Data Warehouse:** Star schema (fact + dimension tables) implemented in MySQL  
 - **Presentation Layer:** Interactive dashboards in Power BI  
 
-![Architecture Diagram Placeholder](https://via.placeholder.com/800x400?text=BI+Architecture)
+![Architecture Diagram](./screenshots/architecture-diagram.png)
 
 ---
 
