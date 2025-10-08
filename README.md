@@ -13,7 +13,7 @@ It was developed as part of the *Management des Systèmes d’Information* modul
 5. [Project Deliverables](#-project-deliverables)  
 6. [Project Previews](#-project-previews)  
    - [Star Schema](#-data-warehouse-design-star-schema)  
-   - [ETL Process](#-etl-process-talend-job)  
+   - [ETL Process](#-etl-process-talend-jobs)  
    - [Reporting Dashboards](#-reporting-dashboards-power-bi)  
 7. [Authors](#-authors)  
 8. [Academic Context](#-academic-context)  
@@ -86,17 +86,42 @@ The dashboards provide insights on:
 ## 📸 Project Previews
 
 ### 🔹 Data Warehouse Design (Star Schema)
-![Star Schema Placeholder](https://via.placeholder.com/800x400?text=Star+Schema+Design)
+![Star Schema](./screenshots/star-schema.png)  
+*Star schema implemented in MySQL Workbench, showing the central fact table (sales) and connected dimension tables (clients, products, time).*
 
-### 🔹 ETL Process (Talend Job)
-![Talend ETL Placeholder](https://via.placeholder.com/800x400?text=ETL+Process+Talend)
+---
+
+### 🔹 ETL Process (Talend Jobs)
+Below are the Talend jobs created to load different dimensions and the fact table into the data warehouse:
+
+- **Load Clients**  
+  ![Load Clients Job](./screenshots/load-clients-talend-job.png)  
+  *ETL job to extract client data from the source system and load it into the client dimension table.*  
+
+- **Load Products**  
+  ![Load Products Job](./screenshots/load-products-talend-job.png)  
+  *ETL job to extract and load product information into the product dimension.*  
+
+- **Load Sales**  
+  ![Load Sales Job](./screenshots/load-sales-talend-job.png)  
+  *ETL job to populate the sales fact table with transactional data.*  
+
+- **Load Time**  
+  ![Load Time Job](./screenshots/load-time-talend-job.png)  
+  *ETL job to generate and load time dimension data for temporal analysis.*  
+
+---
 
 ### 🔹 Reporting Dashboards (Power BI)
-![Dashboard Preview Placeholder 1](https://via.placeholder.com/800x400?text=Dashboard+Preview+1)  
-![Dashboard Preview Placeholder 2](https://via.placeholder.com/800x400?text=Dashboard+Preview+2)  
-![Dashboard Preview Placeholder 3](https://via.placeholder.com/800x400?text=Dashboard+Preview+3)
+Here are examples of the Power BI dashboards developed for sales analysis:
 
-*(Replace placeholders with real screenshots from MySQL Workbench, Talend, and Power BI)*  
+- **Dashboard Page 1**  
+  ![Dashboard 1](./screenshots/dashboard-1.png)  
+  *Overview of sales KPIs including total revenue, total sales, and performance by product.*  
+
+- **Dashboard Page 2**  
+  ![Dashboard 2](./screenshots/dashboard-2.png)  
+  *Geographic and client-based analysis showing sales distribution across regions and customer segments.*  
 
 ---
 
