@@ -1,6 +1,6 @@
 <h1>📊 Sales BI Data Warehouse & Reporting System</h1>
 
-<p>This project implements a complete <b>Business Intelligence (BI)</b> solution, starting from a MySQL database and ending with interactive dashboards in Power BI.</p>
+<p>This project implements a complete <b>Business Intelligence (BI)</b> solution that transforms <b>MySQL</b> sales data into interactive <b>Power BI dashboards</b>. Features a <b>Talend ETL pipeline</b> and star schema warehouse to track revenue, product performance, and market share <b>KPIs.</b></p>
 
 ---
 
