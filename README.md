@@ -1,7 +1,6 @@
 # 📊 Sales BI Data Warehouse & Reporting System
 
-This project implements a complete **Business Intelligence (BI)** solution, starting from a MySQL database and ending with interactive dashboards in Power BI.  
-It was developed as part of the *Management des Systèmes d’Information* module at ENSA El Jadida (Master SDIA, 1st year).
+This project implements a complete **Business Intelligence (BI)** solution, starting from a MySQL database and ending with interactive dashboards in Power BI.
 
 ---
 
@@ -15,8 +14,7 @@ It was developed as part of the *Management des Systèmes d’Information* modul
    - [Star Schema](#-data-warehouse-design-star-schema)  
    - [ETL Process](#-etl-process-talend-jobs)  
    - [Reporting Dashboards](#-reporting-dashboards-power-bi)  
-7. [Authors](#-authors)  
-8. [Academic Context](#-academic-context)  
+7. [Authors](#-authors) 
 
 ---
 
@@ -128,12 +126,5 @@ Here are examples of the Power BI dashboards developed for sales analysis:
 ## 👨‍💻 Authors
 - **Fahd EL ATTAR**  
 - **Anouar EL GORCH**  
-
----
-
-## 📅 Academic Context
-- **Module:** Management des Systèmes d’Information (MSI)  
-- **Institution:** ENSA El Jadida, Université Chouaib Doukkali  
-- **Academic Year:** 2024/2025  
 
 ---
